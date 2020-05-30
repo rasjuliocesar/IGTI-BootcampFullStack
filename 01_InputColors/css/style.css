@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 361);
+    padding: 10px;
+    text-align: center;
+}
+
+.size {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+
+div {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 80%;
+    height: 100px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
