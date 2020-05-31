@@ -1,0 +1,33 @@
+body {
+    padding: 10px;
+    font-family: 'Rock Salt', cursive;
+}
+
+img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.inputFrequency {
+    width: 100px !important;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.445) !important;
+    border-radius: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.content {
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 20px;
+    border-radius: 20px !important;
+}
+
+iframe {
+    margin-top: 40px;
+    width: 360px;
+    height: 215px;
+}
