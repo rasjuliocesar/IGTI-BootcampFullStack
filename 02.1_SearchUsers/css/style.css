@@ -1,0 +1,38 @@
+body {
+    padding: 10px;
+}
+.content {
+    display: flex;
+}
+
+.contentSide {
+    border: 1px solid grey;
+    width: 50%;
+    border-radius: 15px;
+    margin-right: 5px;
+
+}
+
+.result {
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#resultRight {
+    margin-left: 10px;
+}

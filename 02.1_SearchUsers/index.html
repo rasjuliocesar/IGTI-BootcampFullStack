@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Desafio 02 - Pesquisa e Filtro de Usuários</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="center">Pesquisa de Usuários</h3>
+        <div id="waiting" class="center"></div>
+        <div class="input-field center">
+            <div class="input-field">
+                <label for="inputText">Busca</label>
+                <input type="text" id="inputText" />
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentSide">
+                <h5 class="center" id="headLeft">Nenhum Usuário Filtrado</h5>
+                <div class="result" id="resultLeft">   
+                </div>
+            </div>
+            <div class="contentSide">
+                <h5 class="center" id="headRight">Nada a ser exibido</h5>
+                <div id="resultRight">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
